@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link real= "stylesheet"href-"style.css">
+</head>
+<body>
+  <!--navigation-->  
+  <nav class ="navbar">
+    <a href ="#home" class ="logo"> devjunior</a>
+    <ul class ="nav links">
+        <li><a href = "#home">home</a></li>
+        <li><a href = "#skills">skills</a></li>
+        <li><a href = "#projects"></a></li>
+        <li><a href = "#contact"></a></li>
+    </nav>
+    </ul>
+    <!---hero section-->
+<section id="home" class="hero">
+ <div class="hero-content">
+     <h1>Front-end Denveloper</h1>
+    <p>O meu nome é Nathalya e eu estou cursando junto ao ensino médio o Análise de Desnvolvimento de Sistemas no 2 ano </p>
+   <a href="#contact" class="cta-button">contato</a>
+         </div>
+     <div class="hero-image">
+    <img src="minha imagem" alt="profile" class="profile-img">
+         </div>
+     </section>
+    <!--skills section--> 
+    <section id="skills" class="skills">
+        <h2> minhas habilidaes </h2>
+        <div class= skill-grid>
+        <div class="skill-card">
+        <i> class="fas fa server"</i> 
+        <h3> ul/ux desing </h3>
+        <p> figma, adope xd </p>
+        </div>
+        </div>
+    </section>
+</body>
+</html>
